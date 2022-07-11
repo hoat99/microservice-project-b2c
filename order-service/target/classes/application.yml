@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: ORDER-SERVICE
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DATABASE:order_service}?autoReconnect=true&allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true
+    username: root
+    password: 01653693151
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: ${SERVER_PORT:3003}
+  forward-headers-strategy: framework
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://10.22.4.132:8761/eureka/
+  instance:
+    hostname: 10.22.4.132
+
+security:
+  oauth2:
+    resource:
+      jwk:
+        key-set-uri: http://10.22.4.132:8888/auth/.well-known/jwks.json
+
+

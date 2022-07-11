@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://git.savvycom.vn/fresher-20220629-be/team-hoat/product-service.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "hoat"]
+	remote = origin
+	merge = refs/heads/hoat

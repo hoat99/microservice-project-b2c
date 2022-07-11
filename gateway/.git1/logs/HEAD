@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 1883d1a6f95981ca4c48f5905a30418111330c8b unknown <nongvanhoat1999@gmail.com> 1656499901 +0700	commit (initial): first commit gate-service
+1883d1a6f95981ca4c48f5905a30418111330c8b 0000000000000000000000000000000000000000 unknown <nongvanhoat1999@gmail.com> 1656500493 +0700	Branch: renamed refs/heads/hoat to refs/heads/hoat
+1883d1a6f95981ca4c48f5905a30418111330c8b 1883d1a6f95981ca4c48f5905a30418111330c8b unknown <nongvanhoat1999@gmail.com> 1656500493 +0700	Branch: renamed refs/heads/hoat to refs/heads/hoat
+1883d1a6f95981ca4c48f5905a30418111330c8b 2ebb92b77f4b1957d1e32bc7cb5af902ac54af5a unknown <nongvanhoat1999@gmail.com> 1657205499 +0700	commit: complete gateway
